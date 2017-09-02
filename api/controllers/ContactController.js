@@ -7,7 +7,7 @@
 
 module.exports = {
 
-  'total-count': function (request, response) {
+  'count': function (request, response) {
 
     Contact.count().exec(function (error, count) {
 
